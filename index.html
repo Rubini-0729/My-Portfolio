@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubini T | Aspiring Data Scientist</title>
+
+    <meta name="description" content="Rubini T — Aspiring Data Scientist. Portfolio featuring AI/ML projects, internships, skills, and certifications.">
+
+    <!-- Favicon & Apple Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#00f0ff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+<!-- 
+TemplateMo 603 Nexaverse
+https://templatemo.com/tm-603-nexaverse
+-->
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-ring"></div>
+        <div class="loading-text">Initializing Portfolio...</div>
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <div class="header" id="mainHeader">
+            <div class="logo" aria-hidden="true">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f0ff"/>
+                            <stop offset="100%" style="stop-color:#ff00d4"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,5 95,30 95,70 50,95 5,70 5,30" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="50,20 80,37 80,63 50,80 20,63 20,37" fill="none" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+                    <circle cx="50" cy="50" r="12" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="50" cy="50" r="6" fill="url(#logoGradient)"/>
+                </svg>
+            </div>
+
+            <h1 class="brand-name">Rubini T</h1>
+            <p class="tagline">Aspiring Data Scientist • AI/ML • Cloud</p>
+
+            <div class="header-quicklinks" aria-label="Quick links">
+                <a class="header-link" href="https://mail.google.com/mail/?view=cm&fs=1&to=rubini29082006@gmail.com" target="_blank" rel="noreferrer">Email</a>
+                <a class="header-link" href="https://www.linkedin.com/in/rubini-t-359219291" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="header-link" href="https://github.com/Rubini-0729" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+            <div class="menu-item initial-load" data-section="home" role="button" tabindex="0" aria-label="Open Home section">
+                <div class="menu-badge">HM</div>
+                <div class="menu-title">Home</div>
+            </div>
+            <div class="menu-item initial-load" data-section="skills" role="button" tabindex="0" aria-label="Open Skills section">
+                <div class="menu-badge">SK</div>
+                <div class="menu-title">Skills</div>
+            </div>
+            <div class="menu-item initial-load" data-section="projects" role="button" tabindex="0" aria-label="Open Projects section">
+                <div class="menu-badge">PR</div>
+                <div class="menu-title">Projects</div>
+            </div>
+            <div class="menu-item initial-load" data-section="experience" role="button" tabindex="0" aria-label="Open Experience section">
+                <div class="menu-badge">EX</div>
+                <div class="menu-title">Experience</div>
+            </div>
+            <div class="menu-item initial-load" data-section="education" role="button" tabindex="0" aria-label="Open Education section">
+                <div class="menu-badge">ED</div>
+                <div class="menu-title">Education</div>
+            </div>
+            <div class="menu-item initial-load" data-section="contact" role="button" tabindex="0" aria-label="Open Contact section">
+                <div class="menu-badge">CT</div>
+                <div class="menu-title">Contact</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div id="contentArea">
+            <!-- HOME -->
+            <div class="content-section" id="home">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradHome" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradHome)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradHome)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>RUBINI T</h3>
+                        <p>Portfolio</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="intro-hero">
+                    <div class="intro-hero-content">
+                        <span class="intro-badge">B.Tech AI & DS (2023–2027)</span>
+                        <h1 class="intro-headline">Building<br><span>AI & Data</span> Solutions</h1>
+                        <p class="intro-subtext">
+                            Motivated AI & Data Science student with hands-on internship experience in Machine Learning, Data Analytics, and Cloud-based AI.
+                            Focused on practical, measurable outcomes: clean data pipelines, reliable models, and deployable prototypes.
+                        </p>
+
+                        <div class="intro-cta-group">
+                            <!-- Put your resume PDF into: /assets/Rubini_T_Resume.pdf -->
+                            <a class="intro-cta-secondary intro-cta-link" href="assets/Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+                        </div>
+                    </div>
+
+                    <div class="intro-hero-visual" aria-hidden="true">
+                        <div class="intro-floating-card card-1">
+                            <span class="card-icon">📊</span>
+                            <span class="card-text">Data Analytics</span>
+                        </div>
+                        <div class="intro-floating-card card-2">
+                            <span class="card-icon">🧠</span>
+                            <span class="card-text">ML Modeling</span>
+                        </div>
+                        <div class="intro-floating-card card-3">
+                            <span class="card-icon">☁️</span>
+                            <span class="card-text">Cloud AI</span>
+                        </div>
+                        <div class="intro-orb"></div>
+                    </div>
+                </div>
+
+                <!-- Quick Metrics -->
+                <div class="intro-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="4">0</span>
+                        <span class="metric-label">Internships</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="4">0</span>
+                        <span class="metric-label">Key Projects</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value" data-target="4">0</span>
+                        <span class="metric-label">Certifications</span>
+                    </div>
+                    <div class="metric-divider"></div>
+                    <div class="metric-item">
+                        <span class="metric-value">AI/DS</span>
+                        <span class="metric-label">Specialization</span>
+                    </div>
+                </div>
+
+                <!-- Highlights -->
+                <div class="intro-values">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <h3>Model Building</h3>
+                        <p>Regression, classification, and clustering with a strong focus on evaluation and improvement using clear metrics.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <h3>Data Pipeline</h3>
+                        <p>Cleaning, preprocessing, EDA, feature engineering, and visualization using Python libraries.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <h3>Cloud & AI</h3>
+                        <p>Exposure to Azure AI/Custom Vision and IBM Cloud experiments for chatbots and AI workflows.</p>
+                    </div>
+                </div>
+
+                <div class="intro-tech">
+                    <p class="tech-label">Core Toolkit</p>
+                    <div class="tech-marquee">
+                        <div class="tech-track">
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">Pandas</span>
+                            <span class="tech-item">NumPy</span>
+                            <span class="tech-item">Matplotlib</span>
+                            <span class="tech-item">Seaborn</span>
+                            <span class="tech-item">Scikit-Learn</span>
+                            <span class="tech-item">TensorFlow</span>
+                            <span class="tech-item">OpenCV</span>
+                            <span class="tech-item">Azure AI</span>
+                            <span class="tech-item">IBM Cloud</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">Pandas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="content-section" id="skills">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradSkills" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradSkills)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradSkills)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>SKILLS</h3>
+                        <p>What I work with</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Skills</h2>
+                    <p class="section-subtitle">Technical strengths + tools + soft skills</p>
+                </div>
+
+                <div class="tabs-container">
+                    <div class="tab-buttons">
+                        <button class="tab-btn active" onclick="switchTab(this, 'skills-core')">Core</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'skills-ml')">AI/ML</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'skills-tools')">Tools</button>
+                        <button class="tab-btn" onclick="switchTab(this, 'skills-soft')">Soft Skills</button>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="skills-core">
+                            <div class="portfolio-grid">
+                                <div class="portfolio-card">
+                                    <h4>Programming</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">Python</span>
+                                        <span class="chip">C</span>
+                                        <span class="chip">C++</span>
+                                    </div>
+                                    <p class="muted">Comfortable with problem solving, scripting, and building end-to-end mini projects.</p>
+                                </div>
+                                <div class="portfolio-card">
+                                    <h4>Data Science</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">EDA</span>
+                                        <span class="chip">Data Cleaning</span>
+                                        <span class="chip">Feature Engineering</span>
+                                        <span class="chip">Visualization</span>
+                                    </div>
+                                    <p class="muted">Hands-on practice with exploratory analysis, preparation, and meaningful insights.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="skills-ml">
+                            <div class="portfolio-grid">
+                                <div class="portfolio-card">
+                                    <h4>Machine Learning</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">Linear Regression</span>
+                                        <span class="chip">Logistic Regression</span>
+                                        <span class="chip">Decision Trees</span>
+                                        <span class="chip">Random Forest</span>
+                                        <span class="chip">KNN</span>
+                                        <span class="chip">SVM</span>
+                                        <span class="chip">K-Means</span>
+                                    </div>
+                                    <p class="muted">Model training, evaluation, and iteration focused on accuracy and reliability.</p>
+                                </div>
+                                <div class="portfolio-card">
+                                    <h4>Deep Learning / CV</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">TensorFlow</span>
+                                        <span class="chip">Keras</span>
+                                        <span class="chip">OpenCV</span>
+                                        <span class="chip">CNN</span>
+                                    </div>
+                                    <p class="muted">Built a real-time Face Mask Detection system with webcam inference and alerts.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="skills-tools">
+                            <div class="portfolio-grid">
+                                <div class="portfolio-card">
+                                    <h4>Cloud & Platforms</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">Azure AI</span>
+                                        <span class="chip">Azure Custom Vision</span>
+                                        <span class="chip">IBM Cloud</span>
+                                        <span class="chip">Google Colab</span>
+                                    </div>
+                                    <p class="muted">Exposure through internships and experiments (chatbots, model tooling).</p>
+                                </div>
+                                <div class="portfolio-card">
+                                    <h4>Dev + Design</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">VS Code</span>
+                                        <span class="chip">Jupyter</span>
+                                        <span class="chip">Figma</span>
+                                        <span class="chip">Canva</span>
+                                        <span class="chip">UI/UX</span>
+                                    </div>
+                                    <p class="muted">Able to present work clearly with clean interfaces and good documentation.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="skills-soft">
+                            <div class="portfolio-grid">
+                                <div class="portfolio-card">
+                                    <h4>Soft Skills</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">Communication</span>
+                                        <span class="chip">Problem Solving</span>
+                                        <span class="chip">Team Collaboration</span>
+                                        <span class="chip">Leadership</span>
+                                        <span class="chip">Critical Thinking</span>
+                                    </div>
+                                    <p class="muted">Strong learning mindset; comfortable presenting and collaborating.</p>
+                                </div>
+                                <div class="portfolio-card">
+                                    <h4>Languages</h4>
+                                    <div class="chip-row">
+                                        <span class="chip">Tamil</span>
+                                        <span class="chip">English</span>
+                                    </div>
+                                    <p class="muted">Clear communication for teamwork and reporting.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECTS -->
+            <div class="content-section" id="projects">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradProjects" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradProjects)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradProjects)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>PROJECTS</h3>
+                        <p>Selected work</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">Real projects from internships and learning</p>
+                </div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+                    <button class="filter-btn" onclick="filterGallery('cv', this)">Computer Vision</button>
+                    <button class="filter-btn" onclick="filterGallery('ml', this)">Machine Learning</button>
+                    <button class="filter-btn" onclick="filterGallery('cloud', this)">Cloud + AI</button>
+                    <button class="filter-btn" onclick="filterGallery('iot', this)">IoT</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item project-item" data-category="cv">
+                        <div class="project-inner">
+                            <div class="project-top">
+                                <h4>Face Mask Detection (Live Alert)</h4>
+                                <div class="chip-row">
+                                    <span class="chip">Python</span>
+                                    <span class="chip">OpenCV</span>
+                                    <span class="chip">TensorFlow</span>
+                                    <span class="chip">Keras</span>
+                                </div>
+                            </div>
+                            <p class="project-desc">Real-time detection using webcam stream; trained CNN for masked/unmasked classification; alerts on no-mask detection.</p>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Rubini-0729/face-mask-detection-with-live-alert-system" target="_blank" rel="noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item project-item" data-category="ml">
+                        <div class="project-inner">
+                            <div class="project-top">
+                                <h4>House Price Prediction</h4>
+                                <div class="chip-row">
+                                    <span class="chip">Pandas</span>
+                                    <span class="chip">NumPy</span>
+                                    <span class="chip">Scikit-Learn</span>
+                                    <span class="chip">Seaborn</span>
+                                </div>
+                            </div>
+                            <p class="project-desc">Built regression models (Linear Regression / Decision Tree / Random Forest) with preprocessing, EDA, and evaluation.</p>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Rubini-0729/House-price-prediction.git" target="_blank" rel="noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item project-item" data-category="cloud">
+                        <div class="project-inner">
+                            <div class="project-top">
+                                <h4>AI-Based Travel Agent (Cloud + AI)</h4>
+                                <div class="chip-row">
+                                    <span class="chip">IBM Cloud</span>
+                                    <span class="chip">Azure AI</span>
+                                    <span class="chip">Python</span>
+                                    <span class="chip">NLP</span>
+                                </div>
+                            </div>
+                            <p class="project-desc">Chatbot-style travel assistant: intent handling, personalized recommendations, cloud experiments and deployment testing.</p>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Rubini-0729/Travel_agent" target="_blank" rel="noreferrer">GitHub</a>
+                                <a class="project-link" href="https://drive.google.com/file/d/1PLy0ENJ8is8KaQSZ2JUu5WCVMQJl_XPX/view?usp=drivesdk" target="_blank" rel="noreferrer">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item project-item" data-category="iot">
+                        <div class="project-inner">
+                            <div class="project-top">
+                                <h4>Arduino Sensor Mini Projects</h4>
+                                <div class="chip-row">
+                                    <span class="chip">Arduino</span>
+                                    <span class="chip">Ultrasonic</span>
+                                    <span class="chip">LDR</span>
+                                    <span class="chip">Prototyping</span>
+                                </div>
+                            </div>
+                            <p class="project-desc">Obstacle detection + distance measurement and ambient-light automation with real-time LED responses.</p>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Rubini-0729/Arduino_ultrasonic_LDR" target="_blank" rel="noreferrer">GitHub</a>
+                                <a class="project-link" href="https://drive.google.com/file/d/1OqgYydQ_AB9g5Miu1ifQHshfYX4XX6aC/view?usp=drivesdk" target="_blank" rel="noreferrer">Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPERIENCE -->
+            <div class="content-section" id="experience">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradExp" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradExp)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradExp)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>EXPERIENCE</h3>
+                        <p>Internships</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Internship Experience</h2>
+                    <p class="section-subtitle">Applied learning with real workflows</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-head">
+                                <h4>AI on Azure — Edunet Foundation</h4>
+                                <span class="timeline-date">May 2025 – Jun 2025</span>
+                            </div>
+                            <ul class="timeline-list">
+                                <li>Learned AI/ML/DL fundamentals and real-world applications.</li>
+                                <li>Hands-on supervised and unsupervised learning practice.</li>
+                                <li>Explored Generative AI, Computer Vision, and Azure Custom Vision.</li>
+                                <li>Built and demonstrated a mini deep learning project using Azure tools.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-head">
+                                <h4>AI/ML Internship — Elevate Labs</h4>
+                                <span class="timeline-date">Jun 2025 – Jul 2025</span>
+                            </div>
+                            <ul class="timeline-list">
+                                <li>Data cleaning and preprocessing: missing values, outliers, encoding, scaling.</li>
+                                <li>EDA to identify patterns, trends, and correlations using Python libraries.</li>
+                                <li>Built models: Linear Regression; classification models (LR, DT, RF, KNN, SVM); K-Means.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-head">
+                                <h4>Data Science Internship — Pantech E-Learning</h4>
+                                <span class="timeline-date">Jul 2025 – Aug 2025</span>
+                            </div>
+                            <ul class="timeline-list">
+                                <li>Worked with NumPy, Pandas, Matplotlib, Seaborn for data science tasks.</li>
+                                <li>Practiced preprocessing and EDA; built and evaluated ML models.</li>
+                                <li>Completed a mini project applying an end-to-end pipeline.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-head">
+                                <h4>AI & Cloud — IBM SkillsBuild</h4>
+                                <span class="timeline-date">Aug 2025 – Sep 2025</span>
+                            </div>
+                            <ul class="timeline-list">
+                                <li>Cloud + AI fundamentals, analytics labs, and chatbot development sessions.</li>
+                                <li>Built basic ML models; explored IBM Cloud tools and AutoAI experiments.</li>
+                                <li>Completed final project and evaluation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="content-section" id="education">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradEdu" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradEdu)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradEdu)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>EDUCATION</h3>
+                        <p>Academics & certs</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Education & Certifications</h2>
+                    <p class="section-subtitle">Academic background and credentials</p>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-card">
+                        <h4>B.Tech — Artificial Intelligence & Data Science</h4>
+                        <p class="muted">Achariya College Of Engineering Technology • <strong>CGPA: 8/10</strong></p>
+                        <p class="muted">2023 – 2027 (Present)</p>
+                    </div>
+
+                    <div class="portfolio-card">
+                        <h4>Higher Secondary (HSC)</h4>
+                        <p class="muted">Thiruvallur Girls Government Higher Secondary School • <strong>80%</strong></p>
+                        <p class="muted">2022 – 2023</p>
+                    </div>
+
+                    <div class="portfolio-card">
+                        <h4>Secondary (SSLC)</h4>
+                        <p class="muted">Trinity Blessing High School • <strong>All Pass</strong></p>
+                        <p class="muted">2021 – 2022</p>
+                    </div>
+
+                    <div class="portfolio-card">
+                        <h4>Certifications</h4>
+                        <ul class="mini-list">
+                            <li>Microsoft Azure AI Fundamentals</li>
+                            <li>IBM SkillsBuild AI & Cloud Certifications</li>
+                            <li>Pantech Data Science Internship Certificate</li>
+                            <li>Elevate Labs AI/ML Internship Certificate</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="portfolio-note">
+                    <p class="muted"><strong>Declaration:</strong> I hereby declare that the information provided is true and correct to the best of my knowledge.</p>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="content-section" id="contact">
+                <div class="section-header-small">
+                    <div class="small-logo" aria-hidden="true">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGradContact" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGradContact)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGradContact)"/>
+                        </svg>
+                    </div>
+                    <div class="small-brand">
+                        <h3>CONTACT</h3>
+                        <p>Let’s connect</p>
+                    </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                <div class="section-header">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">For internships, projects, and collaborations</p>
+                </div>
+
+                <div class="contact-grid">
+                    <form class="contact-form" action="https://formsubmit.co/rubini29082006@gmail.com" method="POST">
+                        <!-- FormSubmit settings -->
+                        <input type="hidden" name="_subject" value="Portfolio Contact Form Submission">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <!-- Optional: redirect after submit (change to your site/page if you want) -->
+                        <!-- <input type="hidden" name="_next" value="https://your-domain.com/thanks.html"> -->
+
+                        <div class="form-group">
+                            <label class="sr-only" for="name">Your Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your Name" autocomplete="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="email">Your Email</label>
+                            <input id="email" name="email" type="email" placeholder="Your Email" autocomplete="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="subject">Subject</label>
+                            <input id="subject" name="subject" type="text" placeholder="Subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button class="submit-btn" type="submit">Send Message</button>
+                        <p class="muted tiny">First submission will trigger an email confirmation from FormSubmit.</p>
+                    </form>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📍</div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Pondicherry, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📧</div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p><a class="contact-link" href="mailto:rubini29082006@gmail.com">rubini29082006@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">🔗</div>
+                            <div class="contact-details">
+                                <h4>Profiles</h4>
+                                <p></p>
+                                    <a class="contact-link" href="https://www.linkedin.com/in/rubini-t-359219291" target="_blank" rel="noreferrer">LinkedIn</a>
+                                    <span class="muted"> • </span>
+                                    <a class="contact-link" href="https://github.com/Rubini-0729" target="_blank" rel="noreferrer">GitHub</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="mainFooter">
+            <p>© 2026 Rubini T. Built as a personal portfolio.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
